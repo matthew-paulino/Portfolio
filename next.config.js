@@ -2,13 +2,18 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['assets.unsplash.com'],
+    loader: "custom",
+    imageSizes: [32, 64, 128, 256, 384],
+    deviceSizes: [460, 640, 750, 828, 1080, 1200, 1920, 2048, 3840],
+    nextImageExportOptimizer: {
+      imageFolderPath: "public/img",
+      exportFolderPath: "out",
+      quality: 75,
+    },
   },
-}
-
-module.exports = {
-  images: {
-    domains: ['assets.unsplash.com'],
+  env: {
+    storePicturesInWEBP: true,
+    generateAndUseBlurImages: true,
   },
 }
 

@@ -1,15 +1,18 @@
-import Image from 'next/image';
-
+import Image from "next-image-export-optimizer";
+import HandImage from "../../public/img/steady-hand.jpg";
+import Styles from "./hero-image.module.css";
 export const HeroImage = () => {
   return (
-    <>
-      <Image
-        src="https://unsplash.com/photos/2nj7TTqdLu4"
-        alt="Steady Hand"
-        width={500}
-        height={500}
-      />
-    </>
+    <div className={Styles.wrapper}>
+      <div>
+        <Image
+          src={"/img/steady-hand.jpg"}
+          alt=""
+          layout="fill"
+          objectFit="cover"
+        />
+      </div>
+    </div>
   );
 };
 

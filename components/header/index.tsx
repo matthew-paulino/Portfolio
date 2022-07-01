@@ -1,6 +1,12 @@
-import styles from './header.module.css';
-import Link from 'next/link';
+import styles from "./header.module.css";
+import Link from "next/link";
 
 export const Header = () => {
-  return <Link href="/skill-set">Skill Set</Link>;
+  return (
+    <div>
+      <h1>
+        <Link href="/skill-set">Skill Set</Link>
+      </h1>
+    </div>
+  );
 };
