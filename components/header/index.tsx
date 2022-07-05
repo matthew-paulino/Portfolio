@@ -3,10 +3,10 @@ import Link from "next/link";
 
 export const Header = () => {
   return (
-    <div>
-      <h1>
+    <div className={styles.alignment}>
+      <h3>
         <Link href="/skill-set">Skill Set</Link>
-      </h1>
+      </h3>
     </div>
   );
 };

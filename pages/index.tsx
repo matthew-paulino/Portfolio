@@ -8,6 +8,8 @@ import { Header } from "../components/header";
 import { HeroImage } from "../components/hero-image";
 import { Footer } from "../components/footer";
 import { ImageBio } from "../components/image-bio";
+import { Projects } from "../components/projects/";
+// import { Projects } from "../components/projects";
 
 // import { Footer } from '../components/footer';
 
@@ -22,6 +24,7 @@ const Home: NextPage = () => {
 
       <HeroImage></HeroImage>
       <ImageBio></ImageBio>
+      <Projects></Projects>
 
       <Footer></Footer>
     </div>
