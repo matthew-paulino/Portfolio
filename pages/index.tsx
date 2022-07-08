@@ -23,7 +23,10 @@ const Home: NextPage = () => {
       <Header></Header>
 
       <HeroImage></HeroImage>
-      <ImageBio></ImageBio>
+
+      <div className="container">
+        <ImageBio></ImageBio>
+      </div>
       <Projects></Projects>
 
       <Footer></Footer>

@@ -1,8 +1,18 @@
 
 .alignment {
   text-align: center;
-  padding-top: 16;
-  padding-right: 24;
+  padding-top: 16px;
+  padding-right: 24px;
   padding-bottom: 0px;
   padding-left: 24px;
 }
+
+@media screen and (min-width: 900px){
+  .alignment {
+  padding-right: 250px;
+  padding-left: 250px;
+  }
+}
+
+
+

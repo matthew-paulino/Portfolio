@@ -6,11 +6,16 @@ export const HeroImage = () => {
     <div className={Styles.wrapper}>
       <div>
         <Image
-          src={"/img/steady-hand.jpg"}
+          // src={"/img/steady-hand-co-2nj7TTqdLu4-unsplash.jpg"}
+          src={"/img/jeffrey-clayton-FYqvkG8Ew4Q-unsplash.jpg"}
           alt=""
           layout="fill"
           objectFit="cover"
+          objectPosition="center 37%"
+          // width="100%"
+          // height="100%"
         />
+        {/* /Users/matthewpaulino/Desktop/portfolio-next/public/img/steady-hand-co-2nj7TTqdLu4-unsplash.jpg */}
       </div>
     </div>
   );

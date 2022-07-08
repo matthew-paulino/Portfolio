@@ -1,10 +1,73 @@
 
 
+.alignment {
+  text-align: center;
+  padding-top: 16px;
+}
+
+.gridContainer{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /* grid-column-gap: 15px;
+  grid-row-gap: 15px; */
+  /* padding: 15px; */
+  height: 300px;
+}
+
+.imgContainer {
+  position: relative;
+  border: 1px solid #bdbdbd;
+  border-left: none;
+}
+
+.imgContainer:last-child {
+  border-right: none;
+}
+
+.imgContainer img {
+  object-position: center 0%;
+  transition: object-position 4s;
+}
+
+.imgContainer:hover img {
+  object-position: center 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 80%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  opacity: 0;
+  background-color: white;
+  border-top: 1px solid #bdbdbd;
+  transition: opacity 1s;
+}
+
+.imgContainer:hover .overlay {
+  opacity: .95;
+}
+
+.overlay > * {
+  color: black;
+  z-index: 100;
+  font-weight: bold;
+  padding-top: 4px;
+}
+
+/* .gridItem{
+  text-align: center;
+  line-height: 100px;
+  font-size: 25px;
+  background: white;
+} */
 
 
 /* <div id="portfolio-grid" class="portfolio-grid isotope" style="position: relative; overflow: hidden; height: 56px;">
 
-            
+
 <!-- Featured Clients -->
                                                                                   <div class="portolio-item featured isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px); width: 33.1%;">
       <a href="clients/disneyland-hotel">
@@ -33,5 +96,5 @@
       </div>
       </a>
     </div>
-                                                                                                                      
+
 </div> */
