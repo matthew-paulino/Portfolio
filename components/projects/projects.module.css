@@ -5,19 +5,17 @@
   padding-top: 16px;
 }
 
-.gridContainer{
-  display: grid;
-  grid-template-columns: auto auto auto;
-  /* grid-column-gap: 15px;
-  grid-row-gap: 15px; */
-  /* padding: 15px; */
-  height: 300px;
+.row{
+  display: flex;
+  height: 30vh;
 }
 
 .imgContainer {
   position: relative;
   border: 1px solid #bdbdbd;
   border-left: none;
+  flex: 1;
+
 }
 
 .imgContainer:last-child {

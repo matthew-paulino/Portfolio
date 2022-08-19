@@ -20,16 +20,12 @@ const Home: NextPage = () => {
 
   return (
     <div>
-      <Header></Header>
-
       <HeroImage></HeroImage>
 
       <div className="container">
         <ImageBio></ImageBio>
       </div>
       <Projects></Projects>
-
-      <Footer></Footer>
     </div>
   );
 };

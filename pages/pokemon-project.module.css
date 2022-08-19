@@ -1,0 +1,43 @@
+.container {
+  padding: 0 24px 0 24px;
+  max-width: 1024px;
+  margin: 0 auto;
+  }
+
+  .box {
+    background-color: black;
+    color: white;
+    padding: 24px;
+  }
+
+  .box-text {
+    max-width: 480px;
+    margin: 0 auto;
+  }
+
+  .textColor {
+    color: #FFAE00;
+    /* color: #FF8B28; */
+    /* color: #FF850F; */
+    /* color: #FFB619; */
+    /* color: #FF7B19; */
+  }
+
+  .textUnderline {
+    border-bottom: 2px solid #FFAE00;
+  }
+
+  .textUnderline1 {
+    border-bottom: 2px solid #FFAE00;
+    margin: 42px 80px;
+  }
+
+  .textUnderline2 {
+    border-bottom: 4px solid #FFAE00;
+    margin: 42px 80px;
+  }
+
+
+  .photoBox {
+    box-shadow: 0px 0px 20px 5px #888888;
+  }

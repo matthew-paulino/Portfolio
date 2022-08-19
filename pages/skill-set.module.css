@@ -1,0 +1,85 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+/* could have been .wrapper > div */
+.cells {
+  display: flex;
+  align-items: center;
+}
+
+.cells h4, .cells h1 {
+  border-bottom: 2px solid #FFAE00;
+}
+
+.one {
+  grid-column: 1;
+  grid-row: 1;
+  background-color: black;
+  color: white;
+
+}
+
+.two {
+  grid-column: 2;
+  grid-row: 1;
+  background-color: #09094f;
+  color: white;
+}
+
+.three {
+  grid-column: 1;
+  grid-row: 2;
+  background-color: #09094f;
+  color: white;
+}
+
+.three input, .three textarea {
+  padding: 8px;
+  margin: 8px;
+  border: 1px solid #FFAE00;
+  width: 100%;
+}
+
+.four {
+  grid-column: 2;
+  grid-row: 2;
+  background-color: black;
+  color:white;
+}
+
+.container {
+  padding: 0 24px 0 24px;
+  max-width: 1024px;
+  margin: 0 auto;
+  }
+
+.hollowBullet {
+  list-style-type: circle;
+}
+
+.centerIcon {
+  justify-content: center;
+}
+
+.centerIcon > * {
+  margin: 24px;
+  font-size: 55px;
+  cursor: pointer;
+  padding-bottom: 8px;
+  border-bottom: 4px solid #FFAE00;
+}
+
+.navRight {
+  float: right;
+}
+
+.navLeft {
+  float: left;
+}
+
+
+

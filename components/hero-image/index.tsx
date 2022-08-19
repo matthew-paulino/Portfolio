@@ -1,5 +1,4 @@
 import Image from "next-image-export-optimizer";
-import HandImage from "../../public/img/steady-hand.jpg";
 import Styles from "./hero-image.module.css";
 export const HeroImage = () => {
   return (
