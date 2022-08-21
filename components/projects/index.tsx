@@ -16,8 +16,8 @@ export const Projects = () => {
     },
     {
       image: "/img/screencapture-pennystjohn-2022-07-08-09_15_02.png",
-      url: "/penny-st-john",
-      label: "Penny St. John",
+      url: "/matthew-paulino",
+      label: "Matthew Paulino",
     },
     {
       image: "/img/steady-hand-co-2nj7TTqdLu4-unsplash.jpg",

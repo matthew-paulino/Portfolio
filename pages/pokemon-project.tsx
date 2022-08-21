@@ -12,13 +12,10 @@ export default function SkillSet() {
         <div className={styles["box-text"]}>
           <h1 style={{ textAlign: "center" }}>Poke Game</h1>
 
-          <h2>Lawyer Services Website</h2>
+          <h2>Poke Card Game</h2>
 
-          <h3 className={styles.textColor}>UI & UX Design, Web Development</h3>
-          <h3>
-            ReactJs, HTML, CSS, JavaScript/JSX, React Hooks, NodeJS, NextJS,
-            TypeScript, Netlify CMS
-          </h3>
+          <h3 className={styles.textColor}>UI & UX Design, Web Application</h3>
+          <h3>ReactJs, HTML, CSS, JavaScript/JSX, NodeJS</h3>
 
           <h3>
             <a
@@ -38,19 +35,15 @@ export default function SkillSet() {
       <div>
         <h1>Summary</h1>
         <p>
-          The Penny St. John website was built with two primary goals in mind.
-          First, to have a strong and professional appeal to the visitor that
-          quickly directs them to the client. Second, to create a
-          self-sustaining website that is user friendly for the client.
+          The Poke Game is built to show a single set of Poke Cards. The set is
+          split in half and randomly assigned into two hands. It then calculates
+          the total experience for each hand and determins a winner.
         </p>
         <p>
-          The former was done in collaboration with the client to help achieve
-          their personal vision. Some notables in building-out the UI and UX
-          were leveraging Module CSS, React Hooks and Component State
-          Management. The later was accomplished using tools such as Netlify CMS
-          to allow the client to manage the content, Next JS for easy dev
-          experience, performance and image optimization, and lastly TypeScript
-          to easily catch errors and strongly type code.
+          The card set was created using three components. it shows a single
+          Pokemon, with their name, image, and type. It is provided, via props,
+          an array of objects describing different pokemon, and renders a series
+          of Poke Cards.
         </p>
         <p>The site is hosted on Netlify and source controled by Github.</p>
       </div>
