@@ -7,7 +7,8 @@
 
 .row{
   display: flex;
-  height: 30vh;
+  /* height: 50vh; */
+  height: 450px;
 }
 
 .imgContainer {
@@ -28,7 +29,7 @@
 }
 
 .imgContainer:hover img {
-  object-position: center 100%;
+  object-position: center 125%;
 }
 
 .overlay {

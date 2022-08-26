@@ -7,6 +7,19 @@
   padding-left: 24px;
 }
 
+.alignment .underline {
+  border-bottom: 3px solid #FFAE00;
+
+
+}
+
+.alignment .underline:hover {
+  cursor: pointer;
+  box-shadow: 0 0 5px #FFAE00;
+  text-shadow: 0 0 5px #FFAE00;
+
+}
+
 @media screen and (min-width: 900px){
   .alignment {
   padding-right: 250px;

@@ -39,9 +39,19 @@
 
 .three input, .three textarea {
   padding: 8px;
-  margin: 8px;
+  margin-top: 8px;
+  margin-bottom: 8px;
   border: 1px solid #FFAE00;
   width: 100%;
+}
+
+.contactBox {
+  flex-direction: column;
+  padding-bottom: 16px;
+}
+
+.contactBox form {
+  width: 70%;
 }
 
 .four {
@@ -81,5 +91,15 @@
   float: left;
 }
 
+.styledButton {
+  width: 100%;
+  background: none;
+  border: 3px solid #FFAE00;
+  color: white;
+  padding: 8px 16px;
+  font-weight: bold;
+  border-radius: 16px;
+  cursor: pointer;
+}
 
 

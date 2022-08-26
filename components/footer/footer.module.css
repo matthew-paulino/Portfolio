@@ -1,0 +1,22 @@
+.footerContainer {
+  display: flex;
+  padding: 2rem 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.navRight {
+  float: right;
+}
+
+.copyRight {
+  color: #bdae92;
+}
+
+
+
+
+

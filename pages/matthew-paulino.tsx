@@ -6,18 +6,18 @@ export default function PennysPage() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Penny St. John</title>
+        <title>Matthew Paulino</title>
       </Head>
       <div className={styles.box}>
         <div className={styles["box-text"]}>
           <h1>Matthew Paulino</h1>
 
-          <h2>Web Developer Website</h2>
+          <h2>Web Developer Portfolio</h2>
 
           <h3 className={styles.textColor}>UI & UX Design, Web Development</h3>
           <h3>
             ReactJs, HTML, CSS, JavaScript/JSX, React Hooks, NodeJS, NextJS,
-            TypeScript, Netlify CMS
+            TypeScript
           </h3>
 
           <h3>
@@ -30,6 +30,16 @@ export default function PennysPage() {
               https://matthewpaulino.tech
             </a>
           </h3>
+          <h3>
+            <a
+              className={styles.textUnderline}
+              href="https://github.com/matthew-paulino/Portfolio"
+              target="_blank"
+              rel="noreferrer"
+            >
+              https://github.com
+            </a>
+          </h3>
         </div>
       </div>
 
@@ -38,21 +48,18 @@ export default function PennysPage() {
       <div>
         <h1>Summary</h1>
         <p>
-          The Penny St. John website was built with two primary goals in mind.
-          First, to have a strong and professional appeal to the visitor that
-          quickly directs them to the client. Second, to create a
-          self-sustaining website that is user friendly for the client.
+          The Mattew Paulino website was built to be a personal portfolio. It
+          was crafted to streamline the addition of new projects without heavy
+          code changes. New projects are added, looped through an array and
+          dynamically adjusted in size and shape to match the UI and UX.
         </p>
         <p>
-          The former was done in collaboration with the client to help achieve
-          their personal vision. Some notables in building-out the UI and UX
-          were leveraging Module CSS, React Hooks and Component State
-          Management. The later was accomplished using tools such as Netlify CMS
-          to allow the client to manage the content, Next JS for easy dev
-          experience, performance and image optimization, and lastly TypeScript
-          to easily catch errors and strongly type code.
+          The site was built leveraging Module CSS, React Hooks and Component
+          State Management. Next JS is used for easy dev experience, performance
+          and image optimization, and TypeScript to easily catch errors and
+          strongly type code.
         </p>
-        <p>The site is hosted on Netlify and source controled by Github.</p>
+        <p>The site is hosted on Netlify and source controlled by Github.</p>
       </div>
       <div className={styles.textUnderline2}></div>
 

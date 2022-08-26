@@ -10,7 +10,7 @@ export const Projects = () => {
       label: "Penny St. John",
     },
     {
-      image: "/img/Pokedex.png",
+      image: "/img/Pokemon.png",
       url: "/pokemon-project",
       label: "Pokemon",
     },
@@ -18,16 +18,6 @@ export const Projects = () => {
       image: "/img/screencapture-pennystjohn-2022-07-08-09_15_02.png",
       url: "/matthew-paulino",
       label: "Matthew Paulino",
-    },
-    {
-      image: "/img/steady-hand-co-2nj7TTqdLu4-unsplash.jpg",
-      url: "/nick",
-      label: "Nick",
-    },
-    {
-      image: "/img/screencapture-pennystjohn-2022-07-08-09_15_02.png",
-      url: "/penny-st-john",
-      label: "Penny St. John",
     },
   ];
 
@@ -46,7 +36,7 @@ export const Projects = () => {
 
   return (
     <div className={styles.alignment}>
-      <h2>projects</h2>
+      <h2>Projects</h2>
       <div>
         {/* Each Row */}
         {rows.map((row, i) => (
@@ -76,31 +66,3 @@ export const Projects = () => {
     </div>
   );
 };
-
-{
-  /* <Image
-  src={"/img/steady-hand-co-2nj7TTqdLu4-unsplash.jpg"}
-  alt=""
-  layout="fill"
-  objectFit="cover"
-/>; */
-}
-
-// Want project section to look like
-
-// Image with hover effect in a grid
-
-// click on img and go to page with explanation
-// hover effect
-
-//skill set
-// footer
-
-// make pics clickable to go to page
-// make footer better
-// the grid changes based on how many projects instead of hardcoded to three
-// content inbetween the photos
-// skill set page
-
-// footer
-// header - maybe contact page

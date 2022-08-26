@@ -10,11 +10,13 @@ export default function SkillSet() {
       </Head>
       <div className={styles.box}>
         <div className={styles["box-text"]}>
-          <h1 style={{ textAlign: "center" }}>Poke Game</h1>
+          <h1>PokeGame</h1>
 
           <h2>Poke Card Game</h2>
 
-          <h3 className={styles.textColor}>UI & UX Design, Web Application</h3>
+          <h3 className={styles.textColor}>
+            UI & UX Implementation, Web Application
+          </h3>
           <h3>ReactJs, HTML, CSS, JavaScript/JSX, NodeJS</h3>
 
           <h3>
@@ -27,6 +29,16 @@ export default function SkillSet() {
               https://pokegame.com
             </a>
           </h3>
+          <h3>
+            <a
+              className={styles.textUnderline}
+              href="https://github.com/matthew-paulino/Pokemon_Project"
+              target="_blank"
+              rel="noreferrer"
+            >
+              https://github.com
+            </a>
+          </h3>
         </div>
       </div>
 
@@ -35,17 +47,17 @@ export default function SkillSet() {
       <div>
         <h1>Summary</h1>
         <p>
-          The Poke Game is built to show a single set of Poke Cards. The set is
+          The PokeGame is built to show a single set of Poke Cards. The set is
           split in half and randomly assigned into two hands. It then calculates
-          the total experience for each hand and determins a winner.
+          the total experience for each hand and determines a winner.
         </p>
         <p>
-          The card set was created using three components. it shows a single
+          The card set was created using three components. It shows a single
           Pokemon, with their name, image, and type. It is provided, via props,
           an array of objects describing different pokemon, and renders a series
-          of Poke Cards.
+          of Poke Card React components.
         </p>
-        <p>The site is hosted on Netlify and source controled by Github.</p>
+        <p>The site is hosted on Netlify and source controlled by Github.</p>
       </div>
       <div className={styles.textUnderline2}></div>
 
