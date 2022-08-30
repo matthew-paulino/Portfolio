@@ -67,11 +67,11 @@ export default function PennysPage() {
         {/* style={{ position: "relative", boxShadow: "0px 0px 20px 5px #888888" }}
        > */}
         <Image
-          src={"/img/Penny-Approach.png"}
+          src={"/img/Matthew.png"}
           alt=""
           layout="intrinsic"
-          width="1396"
-          height="1015"
+          width="1344"
+          height="839"
         />
       </div>
 
@@ -79,11 +79,11 @@ export default function PennysPage() {
 
       <div className={styles.photoBox}>
         <Image
-          src={"/img/Penny-CMS.png"}
+          src={"/img/Skill-Set.png"}
           alt=""
           layout="intrinsic"
-          width="1268"
-          height="887"
+          width="1919"
+          height="946"
         />
       </div>
     </div>

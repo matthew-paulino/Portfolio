@@ -102,4 +102,12 @@
   cursor: pointer;
 }
 
+/* @media screen and (min-width:557px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: (2, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+} */
 
