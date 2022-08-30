@@ -15,7 +15,7 @@ export const Projects = () => {
       label: "Pokemon",
     },
     {
-      image: "/img/screencapture-pennystjohn-2022-07-08-09_15_02.png",
+      image: "/img/Home-Page.png",
       url: "/matthew-paulino",
       label: "Matthew Paulino",
     },
@@ -66,4 +66,3 @@ export const Projects = () => {
     </div>
   );
 };
-
