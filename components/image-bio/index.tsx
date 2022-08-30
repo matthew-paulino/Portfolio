@@ -10,8 +10,8 @@ export const ImageBio = () => {
       </h1>
       <h3>
         Weather your a large company, small business or need help with a
-        personal website I'm here to help you. Check out some of my projects
-        below. Let's get in touch!
+        personal website I'm here to help. Check out some of my projects below.
+        Let's get in touch!
       </h3>
 
       <h3>

@@ -19,19 +19,3 @@ export const HeroImage = () => {
     </div>
   );
 };
-
-{
-  /* <img src="https://unsplash.com/photos/2nj7TTqdLu4" />
-https://unsplash.com/photos/2nj7TTqdLu4 */
-}
-
-{
-  /* <>
-      <Image
-        src="https://example.com/test"
-        alt="Landscape picture"
-        width={500}
-        height={500}
-      />
-    </> */
-}

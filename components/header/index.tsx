@@ -5,17 +5,19 @@ import { FaLaptopCode } from "react-icons/Fa";
 
 export const Header = () => {
   return (
-    <header className={styles.headerContainer}>
-      {/* <div className={styles.alignment}> */}
-      <div className={`${styles.navLeft} ${styles.icon}`}>
-        <Link href="/">
-          <IoHome />
-        </Link>
+    <header className={styles.borderBottom}>
+      <div className={styles.headerContainer}>
+        {/* <div className={styles.alignment}> */}
+        <div className={`${styles.navLeft} ${styles.icon}`}>
+          <Link href="/">
+            <IoHome />
+          </Link>
+        </div>
+        <div className={styles.navRight}>
+          <Link href="/skill-set">Skill Set</Link>
+        </div>
+        {/* </div> */}
       </div>
-      <div className={styles.navRight}>
-        <Link href="/skill-set">Skill Set</Link>
-      </div>
-      {/* </div> */}
     </header>
   );
 };

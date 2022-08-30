@@ -8,9 +8,10 @@
   flex-direction: column;
 }
 
-.navRight {
-  float: right;
+.borderTop {
+  border-top: .5px solid #FFAE00;
 }
+
 
 .copyRight {
   color: #bdae92;
