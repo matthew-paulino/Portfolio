@@ -1,7 +1,6 @@
 import styles from "./header.module.css";
 import Link from "next/link";
-import { IoHome } from "react-icons/Io5";
-import { FaLaptopCode } from "react-icons/Fa";
+import { IoHome } from "react-icons/io5";
 
 export const Header = () => {
   return (
