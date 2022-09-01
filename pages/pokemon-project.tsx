@@ -22,7 +22,7 @@ export default function SkillSet() {
           <h3>
             <a
               className={styles.textUnderline}
-              href="/pokemon-project"
+              href="https://pokegameproject.netlify.app/"
               target="_blank"
               rel="noreferrer"
             >

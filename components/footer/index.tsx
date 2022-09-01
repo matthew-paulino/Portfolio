@@ -6,7 +6,6 @@ export const Footer = () => {
   // if we're on home page, remove class border top
   // step 1. Determine if we're are on home page or not
   const router = useRouter();
-  console.log(router);
   // step 2. Use the above determination to toggle useage of borderTop class
   let isHomepage = router.pathname === "/";
   // let isHomepage = false;

@@ -25,14 +25,23 @@ export const Projects = () => {
   // Each row is rendered as a flex box where elements can span full width of the row.
 
   let rows = [];
-  const chunkSize = 3;
+  const chunkSize = 4;
   for (let index = 0; index < projects.length; index += chunkSize) {
     const chunk = projects.slice(index, index + chunkSize);
     rows.push(chunk);
   }
 
-  console.log("projects", projects);
-  console.log("rows", rows);
+  // If the last row only has a single image, move it into the row above it.
+  let lastRow = rows[rows.length - 1];
+  console.log("lastRow", lastRow);
+  if (rows.length > 1 && lastRow.length === 1) {
+    // Assigns the last row value into the previous row
+    console.log("rows", rows);
+    rows[rows.length - 2].push(lastRow[0]);
+    // Cuts off the last row (which is now empty)
+    rows = rows.slice(0, rows.length - 1);
+    console.log("new rows", rows);
+  }
 
   return (
     <div className={styles.alignment}>
