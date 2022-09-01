@@ -23,7 +23,7 @@ export default function PennysPage() {
           <h3>
             <a
               className={styles.textUnderline}
-              href="https://www.matthewpaulino.tech"
+              href="https://matthewpaulino.tech"
               target="_blank"
               rel="noreferrer"
             >
