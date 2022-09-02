@@ -26,7 +26,7 @@ export default function SkillSet() {
               target="_blank"
               rel="noreferrer"
             >
-              https://pokegameproject.netlify.app
+              View PokeGame
             </a>
           </h3>
           <h3>
