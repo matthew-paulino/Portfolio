@@ -9,7 +9,7 @@ export const ImageBio = () => {
         forward-thinking web applications.
       </h1>
       <h3>
-        Weather your a large company, small business or need help with a
+        Whether you&apos;re a large company, small business or need help with a
         personal website I&apos;m here for you. Check out some of my projects
         below. Let&apos;s get in touch!
       </h3>
