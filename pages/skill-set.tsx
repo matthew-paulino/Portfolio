@@ -72,7 +72,7 @@ export default function SkillSet() {
           <div className={`${styles.cells} ${styles.contactBox}`}>
             <h1>Contact</h1>
             <form
-              action="https://formsubmit.co/a5eee46669327d610d744d2465c13d69"
+              action="https://formsubmit.co/a79b03df647f5d28d1793e656ed17075"
               method="POST"
             >
               <div>
