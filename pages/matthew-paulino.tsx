@@ -48,10 +48,16 @@ export default function PennysPage() {
       <div>
         <h1>Summary</h1>
         <p>
-          The Mattew Paulino website was built to be a personal portfolio. It
+          The Matthew Paulino website was built to be a personal portfolio. It
           was crafted to streamline the addition of new projects without heavy
           code changes. New projects are added, looped through an array and
           dynamically adjusted in size and shape to match the UI and UX.
+        </p>
+        <p>
+          A notable feature of the site is the scrolling portfolios on the home
+          page. This was implemented by taking a full page screen shot of the
+          project then using a css transition on object position to scroll the
+          image to the bottom.
         </p>
         <p>
           The site was built leveraging Module CSS, React Hooks and Component
