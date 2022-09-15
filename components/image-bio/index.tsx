@@ -11,12 +11,12 @@ export const ImageBio = () => {
       <h3>
         Whether you&apos;re a large company, small business or need help with a
         personal website I&apos;m here for you. Check out some of my projects
-        below. Let&apos;s get in touch!
+        below and let&apos;s get in touch.
       </h3>
 
       <h3>
         <Link href="/skill-set">
-          <span className={styles.underline}>Touch</span>
+          <span className={styles.underline}>Work with Me!</span>
         </Link>
       </h3>
     </div>
