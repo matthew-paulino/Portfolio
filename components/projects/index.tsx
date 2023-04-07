@@ -5,7 +5,8 @@ import Link from "next/link";
 export const Projects = () => {
   const projects = [
     {
-      image: "/img/screencapture-pennystjohn-2022-07-08-09_15_02.png",
+      // screencapture-pennystjohn-2022-07-08-09_15_02.png
+      image: "/img/penny-st-john.png",
       url: "/penny-st-john",
       label: "Penny St. John",
     },
