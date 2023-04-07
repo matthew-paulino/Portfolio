@@ -39,18 +39,17 @@ export default function PennysPage() {
         <h1>Summary</h1>
         <p>
           The Heather Poundstone website was built with two primary goals in
-          mind. First, to have a strong and professional appeal to the visitor
-          that quickly directs them to the client. Second, to create a
-          self-sustaining website that is user friendly for the client.
+          mind. First, a blogging site that addresses and elaborates on issues
+          important to the client. Second, a site that is easy to update.
         </p>
         <p>
-          The former was done in collaboration with the client to help achieve
-          their personal vision. Some notables in building-out the UI and UX
-          were leveraging Module CSS, React Hooks and Component State
-          Management. The later was accomplished using tools such as Netlify CMS
-          to allow the client to manage the content, Next JS for easy dev
-          experience, performance and image optimization, and lastly TypeScript
-          to easily catch errors and strongly type code.
+          The former was done by building-out a blog that is efficiently
+          categorized and stream lines the user experience. Some notables were
+          leveraging Module CSS, React Hooks and Component State Management. The
+          later was accomplished using tools such as Netlify CMS to allow the
+          client to manage the content, Next JS for easy dev experience,
+          performance and image optimization, and lastly TypeScript to easily
+          catch errors and strongly type code.
         </p>
         <p>The site is hosted on Netlify and source controled by Github.</p>
       </div>
