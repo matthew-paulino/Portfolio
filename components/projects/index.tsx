@@ -19,6 +19,11 @@ export const Projects = () => {
       url: "/matthew-paulino",
       label: "Matthew Paulino",
     },
+    {
+      image: "/img/Heather.png",
+      url: "/heather-poundstone",
+      label: "Heather Poundstone",
+    },
   ];
 
   // Do the math for each row and split into an array of rows

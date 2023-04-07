@@ -54,8 +54,8 @@
 
 /* Destkop specific */
 
-
-@media screen and (min-width:768px) {
+/* 768 */
+@media screen and (min-width:950px) {
   .row {
     flex-direction: row;
     height: 350px;
@@ -71,8 +71,8 @@
     border-right: none;
   }
 }
-
-@media screen and (min-width:900px) {
+/* 900 */
+@media screen and (min-width:950px) {
   .row {
     height: 450px;
     flex-direction: row;
